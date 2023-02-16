@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.filtroCategorias{
+    filter: grayscale(60%);
+}
+
+.filtroCategorias:hover{
+    filter: grayscale(0);
+    transition: 400ms;
+}
+
+@media all and (max-width:767px){
+    .banner-Principal{
+        height: 250px;
+        object-fit: cover;
+        /* object-position: 58%; */
+    }
+}
