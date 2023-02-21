@@ -33,5 +33,17 @@ main{
 }
 
 .bg-purple {
-    background: #6f42c1;
+    background: #6f42c1 ;
+}
+.bg-green {
+    background: #20c997 ;
+}
+
+.bg-orange {
+    background: #fd7e14
+    ;
+}
+.bg-skyblue {
+    background: #0dcaf0
+    ;
 }
