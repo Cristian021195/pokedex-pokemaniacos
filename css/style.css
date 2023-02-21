@@ -17,10 +17,20 @@ main{
     transition: 400ms;
 }
 
+
 @media all and (max-width:767px){
     .banner-Principal{
         height: 250px;
         object-fit: cover;
         /* object-position: 58%; */
     }
+}
+@media screen and (min-width:768px) {
+    .carousel-control-prev{
+        left: -4vw;
+    }
+    .carousel-control-next{
+        right: -4vw;
+    }
+    
 }
