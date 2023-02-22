@@ -32,5 +32,26 @@ main{
     .carousel-control-next{
         right: -4vw;
     }
-    
+}
+
+.card-footer {
+    background:transparent;
+    border-top: 0px;
+
+}
+
+.bg-purple {
+    background: #6f42c1 ;
+}
+.bg-green {
+    background: #20c997 ;
+}
+
+.bg-orange {
+    background: #fd7e14
+    ;
+}
+.bg-skyblue {
+    background: #0dcaf0
+    ;
 }
