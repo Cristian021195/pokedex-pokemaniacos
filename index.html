@@ -11,23 +11,23 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Pananaderia Cocu</title>
+    <title>Pokemaniacos</title>
   </head>
   <body>
     <header class="bg-danger">
       <nav class="container navbar navbar-expand-lg navbar-dark bg-danger">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Pokedex</a>
+          <a class="navbar-brand" href="./index.html">Pokedex</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">inicio</a>
+                <a class="nav-link active" aria-current="page" href="./index.html">inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="./pages/sobre-nosotros.html">Sobre nosotros</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,88 +49,148 @@
         </div>
       </nav>
     </header>
-    <main class="container">
-      <section class="m-5">
-        <article class="border rounded w-100 p-4">
-          <h1>Bulbasaur <span>N°.001</span></h1>
-          <div class="row">
-            <div class="col-md-4 d-flex">
-              <div class="justify-content-center">              
-                <img src="https://picsum.photos/200" alt="Bulbasaur">
-              </div>
-            </div>
-            <div class="col-md-8">
-              <div class="bg-primary rounded p-4 text-light mb-4">
-                <div class="detail-header mb-4">Version</div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <p>Altura 
-                      <br>
-                      0.7m
-                      <br>
-                      <br>
-                      Peso
-                      <br>
-                      6,9kg
-                      <br>
-                      male and female
-                    </p>
-                  </div>
-                  <div class="col-md-6">
-                    Categoria
-                    <br>
-                    Semilla
-                    <br>
-                    <br>
-                    Habilidad
-                    <br>
-                    Espesura
-                  </div>
-                </div>
-              </div>
-              <div>
-                <p><b>Tipo</b></p>
-                <span class="badge rounded-pill bg-success">Planta</span>
-                <span class="badge rounded-pill bg-primary">Veneno</span>
-                <br><br>
-                <p><b>Debilidad</b></p>
-                <span class="badge rounded-pill bg-danger">Planta</span>
-                <span class="badge rounded-pill bg-primary">Psíquico</span>
-                <span class="badge rounded-pill bg-secondary">Volador</span>
-                <span class="badge rounded-pill bg-info">Psíquico</span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="rounded bg-secondary row mt-5">
-              <h2>Evoluciones</h2>
-              <div class="col-md-4">
-                <img src="https://picsum.photos/200" alt="">
-                <h3>Bulbasaur N°.001</h3>
-                <span class="badge rounded-pill bg-success">Planta</span>
-                <span class="badge rounded-pill bg-primary">Veneno</span>
-              </div>
-              <div class="col-md-4">
-                <img src="https://picsum.photos/200" alt="">
-                <h3>Bulbasaur N°.001</h3>
-                <span class="badge rounded-pill bg-success">Planta</span>
-                <span class="badge rounded-pill bg-primary">Veneno</span>
-              </div>
-              <div class="col-md-4">
-                <img src="https://picsum.photos/200" alt="">
-                <h3>Bulbasaur N°.001</h3>
-                <span class="badge rounded-pill bg-success">Planta</span>
-                <span class="badge rounded-pill bg-primary">Veneno</span>
-              </div>
-            </div>
-          </div>
-        </article>
-      </section>
-    </main>
+    <!-- linkear algunas de las cards para que vaya a la pagina de detalle -->
+    <main class="container mt-5">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/bulbasaur.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">N°.001</p>
+              <h5 class="card-titulo">Bulbasur</h5>
+              <span class="badge rounded-pill bg-green">Planta</span>
+                <span class="badge rounded-pill bg-purple">Veneno</span>
 
-    <footer class="bg-dark text-light py-4 d-flex justify-content-center text-center">
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Ivysaur2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">N°.002</p>
+              <h5 class="card-titulo">Ivysaur</h5>
+              <span class="badge rounded-pill bg-green">Planta</span>
+                <span class="badge rounded-pill bg-purple">Veneno</span>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/venusaur3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">N°.003</p>
+              <h5 class="card-titulo">Venusaur</h5>
+              <span class="badge rounded-pill bg-green">Planta</span>
+                <span class="badge rounded-pill bg-purple">Veneno</span>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/charmander4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">N°.004</p>
+              <h5 class="card-titulo">Charmander</h5>
+              <span class="badge rounded-pill bg-orange">Fuego</span>
+                </div>
+                <div class="card-footer">
+              <a href="#" class="btn btn-primary">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-2">
+        
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/charmeleon5.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">N°.005</p>
+              <h5 class="card-titulo">Charmeleon</h5>
+              <span class="badge rounded-pill bg-orange">Fuego</span>
+                
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/charizard6.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">N°.006</p>
+              <h5 class="card-titulo">Charizard</h5>
+              <span class="badge rounded-pill bg-orange">Fuego</span>
+                <span class="badge rounded-pill bg-secondary">Volador</span>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/squirtli7.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">N°.007</p>
+              <h5 class="card-titulo">Squirtle</h5>
+              <span class="badge rounded-pill bg-skyblue">Agua</span>
+
+
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/caterpie8.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">N°.008</p>
+              <h5 class="card-titulo">Caterpie</h5>
+              <span class="badge rounded-pill bg-green">Bicho</span>
+                
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-2 mb-5">     
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/butterfree9.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">N°.009</p>
+              <h5 class="card-titulo">Butterfree</h5>
+              <span class="badge rounded-pill bg-green">Bicho</span>
+                <span class="badge rounded-pill bg-secondary">Volador</span>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </main>
+    <footer class="bg-dark text-secondary-emphasis py-4 d-flex justify-content-center text-center">
       <section class="container">
-        <h3>&copy; Todos los derechos reservados</h3>
+        <h3>Pokemaniacos 2023 &copy; Todos los derechos reservados.</h3>
       </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

@@ -1,67 +1,135 @@
 <!DOCTYPE html>
-<html lang="es" data-bs-theme="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="panaderia con productos artesanales" />
-    <meta name="author" content="Arias Emilse" />
-    <meta name="keywords" content="facturas, pan, pan dulce" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="../css/style.css" />
-    <title>Sobre Nosotros</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-dark-subtle navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="../index.html">
-            <img
-              src="../img/cocu_logo-450.png"
-              alt="logo panaderia cocu"
-              width="90px"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./historia.html">Historia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="./contacto.html">Contactos</a>
-              </li>
-            </ul>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="panaderia con productos artesanales" />
+  <meta name="author" content="Arias Emilse" />
+  <meta name="keywords" content="facturas, pan, pan dulce" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../css/sobre-nosotros.css">
+  <title>Sobre Nosotros</title>
+</head>
+<body class="">
+  <header class="bg-danger">
+    <nav class="container navbar navbar-expand-lg navbar-dark bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Pokedex</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./sobre-nosotros.html">Sobre nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar un pokemon" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">🔍</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container-fluid">
+    <section class="container">
+      <h1 class="text-light text-center pt-4 display-2 fw-semibold">Sobre nosotros</h1>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-xxl-3 my-4 card-1">
+          <div class="card border-0 shadow">
+            <div class="bg-secondary">
+              <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png" class="card-img-top imagenEfec" alt="...">
+            </div>
+            <div class="card-body bg-dark text-light text-center">
+              <h5 class="card-title">Julieta Correa</h5>
+              <a href="https://www.linkedin.com/in/julieta-correa-8869a0227" class="text-light" target="_blank">
+                <i class="bi bi-linkedin fs-5"></i>
+              </a>
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <main class="container my-4">     
-    </main>
-    <footer class="bg-dark-subtle text-secondary py-3">
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+        <div class="col-sm-6 col-md-4 col-xxl-3 my-4">
+          <div class="card border-0 shadow">
+            <div class="bg-secondary">
+              <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" class="card-img-top imagenEfec" alt="...">
+            </div>
+            <div class="card-body bg-dark text-light text-center">
+              <h5 class="card-title">Rodrigo Vizcarra</h5>
+              <a href="https://www.linkedin.com/in/rodrigovizcarra96/" class="text-light" target="_blank">
+                <i class="bi bi-linkedin fs-5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xxl-3 my-4">
+          <div class="card border-0 shadow">
+            <div class="bg-secondary">
+              <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png" class="card-img-top imagenEfec" alt="...">
+            </div>
+            <div class="card-body bg-dark text-light text-center">
+              <h5 class="card-title">Juan Llanos</h5>
+              <a href="#" class="text-light">
+                <i class="bi bi-linkedin fs-5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xxl-3 my-4">
+          <div class="card border-0 shadow">
+            <div class="bg-secondary">
+              <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png" class="card-img-top imagenEfec" alt="...">
+            </div>
+            <div class="card-body bg-dark text-light text-center">
+              <h5 class="card-title">Luciano Angeleri</h5>
+              <a href="https://www.linkedin.com/in/cesar-luciano-angeleri/" class="text-light" target="_blank">
+                <i class="bi bi-linkedin fs-5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xxl-3 my-4">
+          <div class="card border-0 shadow">
+            <div class="bg-secondary">
+              <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png" class="card-img-top imagenEfec" alt="...">
+            </div>
+            <div class="card-body bg-dark text-light text-center">
+              <h5 class="card-title">Cristian Gramajo</h5>
+              <a href="https://www.linkedin.com/in/cristian021195/" class="text-light" target="_blank">
+                <i class="bi bi-linkedin fs-5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-dark text-light py-4 d-flex justify-content-center text-center">
+    <section class="container">
+      <h3>&copy; Todos los derechos reservados</h3>
+    </section>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
